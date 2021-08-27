@@ -1,0 +1,60 @@
+<html>
+<body>
+    <h2>Covid-19 Prediction</h2>
+    <h3>Please answer the folowing questions.</h3>
+
+<div>
+  <form action="/result" method="POST">
+    <label for="cough">Cough</label><br>
+    <select id="cough" name="cough">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br><br>
+    <label for="fever">Fever</label><br>
+    <select id="fever" name="fever">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br><br>
+    <label for="sore_throat">Sore Throat</label><br>
+    <select id="sore_throat" name="sore_throat">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br><br>
+    <label for="shortness_of_breath">Shortness of Breath</label><br>
+    <select id="shortness_of_breath" name="shortness_of_breath">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br><br>
+    <label for="head_ache">Head Ache</label><br>
+    <select id="head_ache" name="head_ache">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br><br>
+    <label for="age_60_and_above">Age 60 and Above</label><br>
+    <select id="age_60_and_above" name="age_60_and_above">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br><br>
+    <label for="gender_female">Gender</label><br>
+    <select id="gender_female" name="gender_female">
+      <option value="0">Female</option>
+      <option value="1">Male</option>
+    </select>
+    <br><br>
+    <label for="contact_with_confirmed">Do you have contacted with confirmed patient?</label><br>
+    <select id="contact_with_confirmed" name="contact_with_confirmed">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
